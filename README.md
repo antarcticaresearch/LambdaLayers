@@ -8,7 +8,7 @@ Use Case: If you are trying to create a AWS Lambda function to access your Fireb
 To Use: 
 1. Goto your AWS Lambda console. Under "Additional Resources", click on Layers.
 2. Create a new Layer. Select "Upload a .zip file" (use the firebaseadmin.zip file in this repo). 
-3. To attach this layer to your lambda function, goto your Function Overview, click on Layers->Add a layer. 
+3. To attach this layer to your lambda function, goto your Function Overview, click on Layers->Add a layer->Custom Layers. 
 4. Select the layer you created in Step #2.
 5. That's it! 
 
