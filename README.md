@@ -12,7 +12,7 @@ To Use:
 4. Select the layer you created in Step #2.
 5. That's it! 
 
-Once you have attached the layer to your lambda function, you would be to 'require' it. Similar to the following
+Once you have attached the layer to your lambda function, you would be to 'require' it within your lambda function, similar to the following:
 
 const { initializeApp, applicationDefault, cert } = require('firebase-admin/app');
 const { getFirestore } = require('firebase-admin/firestore');
